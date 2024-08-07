@@ -1,10 +1,9 @@
 function solution(numbers) {
     var answer = 0;
-    let n = numbers.length;
     let sum = 0;
-    for (let number of numbers){
-        sum += number;
+    for (let num of numbers) {
+        sum += num;
     }
-    answer = sum/n;
+    answer = sum / numbers.length;
     return answer;
 }
