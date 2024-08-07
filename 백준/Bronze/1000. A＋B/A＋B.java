@@ -5,5 +5,6 @@ public class Main{
     int A = scan.nextInt();
     int B = scan.nextInt();
     System.out.println(A + B);
+    scan.close();
     }
 }
