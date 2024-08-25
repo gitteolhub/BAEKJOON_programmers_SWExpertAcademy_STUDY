@@ -1,6 +1,7 @@
 def solution(n):
     answer = 0
-    if int(n**0.5)*int(n**0.5) == n:
+    sqrt = round (n**0.5)
+    if sqrt * sqrt == n:
         answer = 1
     else:
         answer = 2
