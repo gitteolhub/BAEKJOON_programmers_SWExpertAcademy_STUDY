@@ -1,12 +1,7 @@
 class Solution {
     public int solution(int a, int b) {
-        String result1 = String.valueOf(a) + String.valueOf(b);
-        String result2 = String.valueOf(b) + String.valueOf(a);
-        if (Integer.parseInt(result1) >= Integer.parseInt(result2)) {
-            return Integer.parseInt(result1);
-        }
-        else {
-            return Integer.parseInt(result2);
-        }
+        int result1 = Integer.parseInt("" + a + b);
+        int result2 = Integer.parseInt("" + b + a);
+        return Math.max(result1, result2);
     }
 }
