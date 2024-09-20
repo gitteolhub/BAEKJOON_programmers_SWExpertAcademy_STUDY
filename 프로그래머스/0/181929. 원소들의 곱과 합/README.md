@@ -1,10 +1,10 @@
 # [level 0] 원소들의 곱과 합 - 181929 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181929?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181929?language=java) 
 
 ### 성능 요약
 
-메모리: 9.86 MB, 시간: 0.00 ms
+메모리: 72.9 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 20일 18:14:54
+2024년 09월 20일 18:31:26
 
 ### 문제 설명
 
